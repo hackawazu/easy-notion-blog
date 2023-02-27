@@ -9,13 +9,15 @@ const RootPage = () => (
     <div className={styles.container}>
       <div>
         <h2>Welcome!</h2>
-        <p>Your easy-notion-blog deployed successfully!</p>
+        <img src="https://i.gyazo.com/ca1ac34ed5a3f4b6be1f536f2602fb70.png" />
+        <p>カワズマサカズによるブログです。</p>
         <p>Have fun!</p>
         <p>
-          easy-notion-blog powered by{' '}
-          <Link href="https://github.com/otoyo/easy-notion-blog">
-            otoyo/easy-notion-blog
+          {' '}
+          <Link href="https://note.com/civictechlt">
+            note
           </Link>
+          もやってるよ。
         </p>
       </div>
     </div>
